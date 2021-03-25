@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Шаблон</title>
+    <link href="css/normalize.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body class="page-body">
+    <header class="main-header">
+        <div class="top-navigation">
+          <div class="inner-container top-navigation-container">
+            <a class="header-top-phone" href="tel:+78123437007">+7 812 313-70-07</a>
+            <ul class="user-menu-list clear-list">
+              <li class="user-menu-item search-item">
+                <a class="user-menu-link search-link" href="#"><span class="visually-hidden">Поиск</span></a>
+                <form class="search-form" action="#" method="GET">
+                  <label class="visually-hidden" for="search-field">Поиск по сайту</label>
+                  <input class="form-text-field search-form-field" id="search-field" type="search" name="search" placeholder="Крем-брюле" value="" required>
+                  <a class="search-form-btn btn" href="#">Найти</a>
+                </form>
+              </li>
+              <li class="user-menu-item login-item">
+                <a class="user-menu-link login-link" href="#">Вход</a>
+                <form class="login-form" action="#" method="POST">
+                  <p class="login-form-row">
+                    <label class="login-form-label visually-hidden" for="login-form-user-email"></label>
+                    <input class="form-text-field login-form-field" id="login-form-user-email" type="email" name="login-user-email" placeholder="email@example.com">
+                  </p>
+                  <p class="login-form-row">
+                    <label class="login-form-label visually-hidden" for="login-form-user-pass"></label>
+                    <input class="form-text-field login-form-field" id="login-form-user-pass" type="password" name="login-user-pass" placeholder="......">
+                  </p>
+                  <div class="login-form-footer">
+                    <a class="login-form-btn btn" href="#">Войти</a>
+                    <p class="login-form-help">
+                      <a class="restore-password" href="#" title="Восстановить пароль">Забыли пароль?</a>
+                      <a class="registration" href="#" title="Зарегистрироваться на сайте">Новая регистрация</a>
+                    </p>
+                  </div>
+                </form>
+              </li>
+              <li class="user-menu-item basket-item">
+                <!-- if (basket empty){class+="empty-basket"; data-count=0)}-->
+                <!-- if (basket !empty{class+="full-basket"; data-count>0;})-->
+                <a class="user-menu-link basket-link full-basket" href="#" data-count="2"> 
+                  <span class="visually-hidden">Корзина</span>
+                </a>
+                <div class="in-basket">
+                  <ul class="in-basket-list clear-list">
+                    <li class="in-basket-item">
+                      <button class="in-basket-delete" type="button"></button>
+                      <img class="in-basket-img" src="img/in-basket-mini-zero.jpg" width="50" height="50" alt="LEGO CITY Fire Спасательный пожарный вертолёт">
+                      <a class="in-basket-title" href="#">LEGO CITY Fire Спасательный пожарный вертолёт</a>
+                      <p class="in-basket-count">
+                        <span class="in-basket-weight">1&nbsp;шт</span>
+                        <span class="in-basket-separator">х</span>
+                        <span class="in-basket-price">3599&nbsp;руб.</span>
+                      </p>
+                      <p class="in-basket-summ">3 599&nbsp;руб.</p>
+                    </li>
+                    <li class="in-basket-item">
+                      <button class="in-basket-delete" type="button"></button>
+                      <img class="in-basket-img" src="img/in-basket-mini-one.jpg" width="50" height="50" alt="LEGO CITY Airport Городской аэропорт" >
+                      <a class="in-basket-title" href="#">LEGO CITY Airport Городской аэропорт</a>
+                      <p class="in-basket-count">
+                        <span class="in-basket-weight">1&nbsp;шт</span>
+                        <span class="in-basket-separator">х</span>
+                        <span class="in-basket-price">2204&nbsp;руб.</span>
+                      </p>
+                      <p class="in-basket-summ">2204&nbsp;руб.</p>
+                    </li>
+                  </ul>
+                  <div class="in-basket-footer">
+                    <p class="in-basket-total">Итого:&nbsp;<span class="in-basket-value">5 803&nbsp;руб.</span></p>
+                    <a href="#" class="btn in-basket-link">Оформить заказ</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav class="main-navigation inner-container">
+          <ul class="site-menu-list clear-list">
+            <li class="site-menu-item menu-catalog-item">
+              <a class="site-menu-link menu-catalog-link" href="#">Каталог</a>
+              <ul class="catalog-list clear-list">
+                <li class="catalog-item">
+                  <a class="catalog-link" href="">Игрушки</a>
+                </li>
+                <li class="catalog-item">
+                  <a class="catalog-link" href="">Малышам</a>
+                </li>
+                <li class="catalog-item">
+                  <a class="catalog-link" href="">Одежда</a>
+                </li>
+                <li class="catalog-item">
+                  <a class="catalog-link" href="">Обувь</a>
+                </li>
+                <li class="catalog-item">
+                  <a class="catalog-link" href="">Книги</a>
+                </li>
+                <li class="catalog-item">
+                  <a class="catalog-link" href="">Хобби</a>
+                </li>
+                <li class="catalog-item">
+                  <a class="catalog-link" href="">Школа</a>
+                </li>
+                <li class="catalog-item">
+                  <a class="catalog-link" href="">Спорт</a>
+                </li>
+                <li class="catalog-item">
+                  <a class="catalog-link" href="">Детская</a>
+                </li>
+                <li class="catalog-item">
+                  <a class="catalog-link" href="">Праздник</a>
+                </li>
+                <li class="catalog-item">
+                  <a class="catalog-link" href="">Игры</a>
+                </li>
+                <li class="catalog-item">
+                  <a class="catalog-link" href="">Транспорт</a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-menu-item">
+              <a class="site-menu-link" href="#">Оплата и доставка</a>
+            </li>
+            <li class="site-menu-item">
+              <a class="site-menu-link" href="#">Магазины</a>
+            </li>
+            <li class="site-menu-item">
+              <a class="site-menu-link" href="#">Акции</a>
+            </li>
+            <li class="site-menu-item">
+              <a class="site-menu-link" href="#">Дисконт</a>
+            </li>
+          </ul>
+          <a class="index-page-link" href="#"><span class="visually-hidden">Логотип</span></a>
+        </nav>
+    </header>
+    <main class="main-content">
+      <div class="inner-container main-container">
+        <h1 class="visually-hidden"></h1>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="inner-container footer-container">
+        <ul class="app-list clear-list">
+          <li class="app-item">
+            <a class="app-link app-store" href="#">
+              <span class="app-link-caption">загрузите в </span>
+              <span class="app-link-value">AppStore</span>
+            </a>
+          </li>
+          <li class="app-item">
+            <a class="app-link google-play" href="#">
+              <span class="app-link-caption">загрузите в </span>
+              <span class="app-link-value">GooglePlay</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="bottom-menu-list clear-list">
+          <li class="bottom-menu-item">
+            <a class="bottom-menu-link" href="#">Компания</a>
+            <ul class="bottom-submenu-list clear-list">
+              <li class="bottom-submenu-item">
+                <a class="bottom-submenu-link" href="#">О компании</a>
+              </li>
+              <li class="bottom-submenu-item">
+                <a class="bottom-submenu-link" href="#">Новости</a>
+              </li>
+              <li class="bottom-submenu-item">
+                <a class="bottom-submenu-link" href="#">Вакансии</a>
+              </li>
+              <li class="bottom-submenu-item">
+                <a class="bottom-submenu-link" href="#">Магазины</a>
+              </li>
+              <li class="bottom-submenu-item">
+                <a class="bottom-submenu-link" href="#">Официальные данные</a>
+              </li>
+            </ul>
+          </li>
+          <li class="bottom-menu-item">
+            <a class="bottom-menu-link" href="#">Информация</a>
+          </li>
+          <li class="bottom-menu-item">
+            <a class="bottom-menu-link" href="#">Помощь</a>
+          </li>
+        </ul>
+        <ul class="social-list clear-list">
+          <li class="social-item">
+            <a class="social-link social-vk" href="#">
+              <span class="visually-hidden">Вконтакте</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link social-instagram" href="#">
+              <span class="visually-hidden">Instagram</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link social-twitter" href="#">
+              <span class="visually-hidden">Twitter</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link social-facebook" href="#">
+              <span class="visually-hidden">Facebook</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
